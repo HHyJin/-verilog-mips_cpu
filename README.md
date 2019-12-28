@@ -15,8 +15,8 @@
 	wire oflow_add, oflow_sub, oflow, slt;
 	assign oflow_add = (a[31] == b[31] && 	add_ab[31] != a[31]) ? 1 : 0; // overflow
 	assign oflow_sub = (a[31] == b[31] && 	sub_ab[31] != a[31]) ? 1 : 0; // overflow, If the 	latter is greater in absolute value, oflow_sub is 1.
-assign oflow = (ALUOp == 4'b0010) ? oflow_add : oflow_sub;
-	assign slt = oflow_sub ? ~(a[31]) : a[31];
+	assign oflow = (ALUOp == 4'b0010) ? oflow_add : oflow_sub;
+assign slt = oflow_sub ? ~(a[31]) : a[31];
 ###### 3.  연산 간 overflow를 체크 하는 회로를 구성한다.
 ###### 
 ######
@@ -38,6 +38,6 @@ assign oflow = (ALUOp == 4'b0010) ? oflow_add : oflow_sub;
 ### 16. sl2.v
 ### 17. testbench.v 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTMwNTEyMjEsNTcwNDQ4MDc1LDY0MT
-kyNzkzOCwtMjA0NzA1MjYyN119
+eyJoaXN0b3J5IjpbNTI3ODM5NTMxLDU3MDQ0ODA3NSw2NDE5Mj
+c5MzgsLTIwNDcwNTI2MjddfQ==
 -->
