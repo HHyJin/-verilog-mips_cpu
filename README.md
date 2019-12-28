@@ -1,4 +1,6 @@
 # 5 stage mips cpu(verilog)
+
+
 ### 1. alu.v
 ###### * branch명령어와 jump명령어는 ALUopcode를 0000으로 setting
 
@@ -36,6 +38,8 @@
 	end
 	endmodule
 ###### 4.  opcode에 따라 reg output에 값을 할당한다.
+
+
 ### 2. control.v
 ######
 ######
@@ -46,6 +50,8 @@
 ######
 ######
 ######
+
+
 ### 3. dm.v
 ######
 ######
@@ -56,6 +62,8 @@
 ######
 ######
 ######
+
+
 ### 4. ff.v
 ######
 ######
@@ -66,6 +74,8 @@
 ######
 ######
 ######
+
+
 ### 5. hazard.v
 ######
 ######
@@ -76,6 +86,8 @@
 ######
 ######
 ######
+
+
 ### 6. im.v
 ######
 ######
@@ -86,6 +98,8 @@
 ######
 ######
 ######
+
+
 ### 7. mips.v
 ######
 ######
@@ -96,6 +110,8 @@
 ######
 ######
 ######
+
+
 ### 8. mux2.v
 ######
 ######
@@ -106,6 +122,8 @@
 ######
 ######
 ######
+
+
 ### 9. mux3.v
 ######
 ######
@@ -116,6 +134,8 @@
 ######
 ######
 ######
+
+
 ### 10. p1.v
 ######
 ######
@@ -126,6 +146,8 @@
 ######
 ######
 ######
+
+
 ### 11. p2.v
 ######
 ######
@@ -136,6 +158,8 @@
 ######
 ######
 ######
+
+
 ### 12. p3.v
 ######
 ######
@@ -146,6 +170,7 @@
 ######
 ######
 ######
+
 ### 13. p4.v
 ######
 ######
@@ -156,6 +181,8 @@
 ######
 ######
 ######
+
+
 ### 14. pcplus4.v
 ######
 ######
@@ -166,6 +193,8 @@
 ######
 ######
 ######
+
+
 ### 15. rf.v
 ######
 ######
@@ -176,6 +205,8 @@
 ######
 ######
 ######
+
+
 ### 16. sl2.v
 ######
 ######
@@ -186,6 +217,8 @@
 ######
 ######
 ######
+
+
 ### 17. testbench.v 
 ######
 ######
@@ -197,8 +230,9 @@
 ######
 ######
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NjgwMTY2MCwxNTIxODQxMjIyLDUyMT
-MyMzc0NSwxNDQ4MTg2MzQ4LC04MzI5OTIyNjcsMTgxMzQ0OTIx
-LC0xNTQzMzI2NjUwLDU1Nzc0Mzk1MCwxMzU3MDI3MDYzLDU3MD
-Q0ODA3NSw2NDE5Mjc5MzgsLTIwNDcwNTI2MjddfQ==
+eyJoaXN0b3J5IjpbLTc3MjM3OTc0MiwxMzc2ODAxNjYwLDE1Mj
+E4NDEyMjIsNTIxMzIzNzQ1LDE0NDgxODYzNDgsLTgzMjk5MjI2
+NywxODEzNDQ5MjEsLTE1NDMzMjY2NTAsNTU3NzQzOTUwLDEzNT
+cwMjcwNjMsNTcwNDQ4MDc1LDY0MTkyNzkzOCwtMjA0NzA1MjYy
+N119
 -->
