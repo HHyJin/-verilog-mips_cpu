@@ -1,6 +1,7 @@
 # 5 stage mips cpu(verilog)
 #### 1. alu.v
 ###### 1. input으로 4bit ALUopcode,  operand A,B를 decode stage로 받는다.
+###### 2. operand A,B의 계산값 sub, add, mult를
 ### 2. control.v
 ### 3. dm.v
 ### 4. ff.v
@@ -18,5 +19,6 @@
 ### 16. sl2.v
 ### 17. testbench.v 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQxOTI3OTM4LC0yMDQ3MDUyNjI3XX0=
+eyJoaXN0b3J5IjpbLTExMDkxNjAzMTksNjQxOTI3OTM4LC0yMD
+Q3MDUyNjI3XX0=
 -->
