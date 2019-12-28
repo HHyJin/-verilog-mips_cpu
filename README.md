@@ -1,23 +1,23 @@
 # 5 stage mips cpu(verilog)
 ### 0. 목차  
-#### [1. alu.v](#1)  
-#### [2. control.v](#2)  
-#### [3. dm.v](#3)  
-#### [4. ff.v](#4)  
-#### [5. hazard.v](#5)  
-#### [6. im.v](#6)  
-#### [7. mips.v](#7)  
-#### [8. mux2.v](#8)  
-#### [9. mux3.v](#9)  
-#### [10. p1.v](#10)  
-#### [11. p2.v](#11)  
-#### [12. p3.v](#12)  
-#### [13. p4.v](#13)  
-#### [14. pcplus4.v](#14)  
-#### [15. rf.v](#15)  
-#### [16. signex.v](#16)  
-#### [17. sl2.v](#17)  
-#### [18. testbench.v](#18)  
+[1. alu.v](#1)  
+[2. control.v](#2)  
+[3. dm.v](#3)  
+[4. ff.v](#4)  
+[5. hazard.v](#5)  
+[6. im.v](#6)  
+[7. mips.v](#7)  
+[8. mux2.v](#8)  
+[9. mux3.v](#9)  
+[10. p1.v](#10)  
+[11. p2.v](#11)  
+[12. p3.v](#12)  
+[13. p4.v](#13)  
+[14. pcplus4.v](#14)  
+[15. rf.v](#15)  
+[16. signex.v](#16)  
+[17. sl2.v](#17)  
+[18. testbench.v](#18)  
 
 
 
@@ -253,11 +253,11 @@
 ######
 ######
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjAwNzkzMzQsMTY1NTE0NTc0NiwtMT
-Q3MzI5ODgyMiwxNTA1NTQ4MjI4LDE0MzU1MjkxMjYsLTEwNzYx
-NTg4ODEsLTIwNDE1OTAzMDUsLTIxNzkxNDQyNiwyNjI2OTQzND
-YsMTQwODEwOTA3MiwxMzc2ODAxNjYwLDE1MjE4NDEyMjIsNTIx
-MzIzNzQ1LDE0NDgxODYzNDgsLTgzMjk5MjI2NywxODEzNDQ5Mj
-EsLTE1NDMzMjY2NTAsNTU3NzQzOTUwLDEzNTcwMjcwNjMsNTcw
-NDQ4MDc1XX0=
+eyJoaXN0b3J5IjpbMjA1NzIwMDczMCwtMjAyMDA3OTMzNCwxNj
+U1MTQ1NzQ2LC0xNDczMjk4ODIyLDE1MDU1NDgyMjgsMTQzNTUy
+OTEyNiwtMTA3NjE1ODg4MSwtMjA0MTU5MDMwNSwtMjE3OTE0ND
+I2LDI2MjY5NDM0NiwxNDA4MTA5MDcyLDEzNzY4MDE2NjAsMTUy
+MTg0MTIyMiw1MjEzMjM3NDUsMTQ0ODE4NjM0OCwtODMyOTkyMj
+Y3LDE4MTM0NDkyMSwtMTU0MzMyNjY1MCw1NTc3NDM5NTAsMTM1
+NzAyNzA2M119
 -->
