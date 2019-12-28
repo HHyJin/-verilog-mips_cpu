@@ -1,6 +1,6 @@
 # 5 stage mips cpu(verilog)
 [1. alu.v](#alu.v)
-<a name="alu.v"></a>
+
 ### 1.alu.v
 ###### * branch명령어와 jump명령어는 ALUopcode를 0000으로 setting
 
@@ -39,7 +39,7 @@
 	endmodule
 ###### 4.  opcode에 따라 reg output에 값을 할당한다.
 
-
+<a name="alu.v"></a>
 ### 2.control.v
 ######
 ######
@@ -230,11 +230,11 @@
 ######
 ######
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjYxMzkyMjQsMTY1NTE0NTc0NiwtMT
-Q3MzI5ODgyMiwxNTA1NTQ4MjI4LDE0MzU1MjkxMjYsLTEwNzYx
-NTg4ODEsLTIwNDE1OTAzMDUsLTIxNzkxNDQyNiwyNjI2OTQzND
-YsMTQwODEwOTA3MiwxMzc2ODAxNjYwLDE1MjE4NDEyMjIsNTIx
-MzIzNzQ1LDE0NDgxODYzNDgsLTgzMjk5MjI2NywxODEzNDQ5Mj
-EsLTE1NDMzMjY2NTAsNTU3NzQzOTUwLDEzNTcwMjcwNjMsNTcw
-NDQ4MDc1XX0=
+eyJoaXN0b3J5IjpbMjA0MDE4OTYwOCwxNjU1MTQ1NzQ2LC0xND
+czMjk4ODIyLDE1MDU1NDgyMjgsMTQzNTUyOTEyNiwtMTA3NjE1
+ODg4MSwtMjA0MTU5MDMwNSwtMjE3OTE0NDI2LDI2MjY5NDM0Ni
+wxNDA4MTA5MDcyLDEzNzY4MDE2NjAsMTUyMTg0MTIyMiw1MjEz
+MjM3NDUsMTQ0ODE4NjM0OCwtODMyOTkyMjY3LDE4MTM0NDkyMS
+wtMTU0MzMyNjY1MCw1NTc3NDM5NTAsMTM1NzAyNzA2Myw1NzA0
+NDgwNzVdfQ==
 -->
