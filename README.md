@@ -36,7 +36,7 @@
 	assign sub_ab = a - b;
 	assign add_ab = a + b;
 	assign mult_ab = a * b;
-###### 2. operand A,B의 계산값 sub, add, mult, slt를 조합회로로 구성한다.
+2. operand A,B의 계산값 sub, add, mult, slt를 조합회로로 구성한다.
 	wire oflow_add, oflow_sub, oflow, slt;
 	assign oflow_add = (a[31] == b[31] && 	add_ab[31] != a[31]) ? 1 : 0;
 	assign oflow_sub = (a[31] == b[31] && 	sub_ab[31] != a[31]) ? 1 : 0;
@@ -58,7 +58,7 @@
 		endcase
 	end
 	endmodule
-###### 4.  opcode에 따라 reg output에 값을 할당한다.  
+4.  opcode에 따라 reg output에 값을 할당한다.  
 
 <a name="2"></a>
 ## 2.control.v
@@ -66,10 +66,6 @@
 1. input으로 6bit opcode를 받아 각 control bit들을 set한다.
 2. bit appendix
 * RegWriteD(reg file write enable), RegDstD(reg file wirte address)
-######
-######
-######
-######
 
 <a name="3"></a>
 ## 3. dm.v
@@ -137,11 +133,11 @@
 ## 18. testbench.v 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjYxODQxNCwtMjIyNzY5MTE2LC0yOD
-I1MTgxMDEsLTYxNTQyMTk3NCwtMjAyMDA3OTMzNCwxNjU1MTQ1
-NzQ2LC0xNDczMjk4ODIyLDE1MDU1NDgyMjgsMTQzNTUyOTEyNi
-wtMTA3NjE1ODg4MSwtMjA0MTU5MDMwNSwtMjE3OTE0NDI2LDI2
-MjY5NDM0NiwxNDA4MTA5MDcyLDEzNzY4MDE2NjAsMTUyMTg0MT
-IyMiw1MjEzMjM3NDUsMTQ0ODE4NjM0OCwtODMyOTkyMjY3LDE4
-MTM0NDkyMV19
+eyJoaXN0b3J5IjpbLTIxMTczODAyNjQsLTIyMjc2OTExNiwtMj
+gyNTE4MTAxLC02MTU0MjE5NzQsLTIwMjAwNzkzMzQsMTY1NTE0
+NTc0NiwtMTQ3MzI5ODgyMiwxNTA1NTQ4MjI4LDE0MzU1MjkxMj
+YsLTEwNzYxNTg4ODEsLTIwNDE1OTAzMDUsLTIxNzkxNDQyNiwy
+NjI2OTQzNDYsMTQwODEwOTA3MiwxMzc2ODAxNjYwLDE1MjE4ND
+EyMjIsNTIxMzIzNzQ1LDE0NDgxODYzNDgsLTgzMjk5MjI2Nywx
+ODEzNDQ5MjFdfQ==
 -->
