@@ -28,7 +28,7 @@
 		input [3:0] ALUOp,
 		input [31:0] a, b,
 		output reg [31:0] out);
-##### 1. input으로 4bit ALUopcode,  operand A,B를 decode stage로 받는다.
+###### 1. input으로 4bit ALUopcode,  operand A,B를 decode stage로 받는다.
 	wire [31:0] sub_ab;
 	wire [31:0] add_ab;
 	wire [31:0] mult_ab;
@@ -132,7 +132,7 @@
 ## 18. testbench.v 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODkzNzg0MTcsLTIyMjc2OTExNiwtMj
+eyJoaXN0b3J5IjpbLTE3MzQyNDA2OTgsLTIyMjc2OTExNiwtMj
 gyNTE4MTAxLC02MTU0MjE5NzQsLTIwMjAwNzkzMzQsMTY1NTE0
 NTc0NiwtMTQ3MzI5ODgyMiwxNTA1NTQ4MjI4LDE0MzU1MjkxMj
 YsLTEwNzYxNTg4ODEsLTIwNDE1OTAzMDUsLTIxNzkxNDQyNiwy
