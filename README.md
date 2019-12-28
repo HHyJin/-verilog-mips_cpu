@@ -21,7 +21,7 @@
 
 
 
-<a name="alu.v"></a>
+<a name="1"></a>
 ### 1.alu.v
 ###### * branch명령어와 jump명령어는 ALUopcode를 0000으로 setting
 
@@ -60,6 +60,7 @@
 	endmodule
 ###### 4.  opcode에 따라 reg output에 값을 할당한다.
 
+<a name="2"></a>
 ### 2.control.v
 ######
 ######
@@ -71,7 +72,7 @@
 ######
 ######
 
-
+<a name="3"></a>
 ### 3. dm.v
 ######
 ######
@@ -250,7 +251,7 @@
 ######
 ######
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NzQwOTkyOCwxNjU1MTQ1NzQ2LC0xND
+eyJoaXN0b3J5IjpbLTEzNTE1NTAzNiwxNjU1MTQ1NzQ2LC0xND
 czMjk4ODIyLDE1MDU1NDgyMjgsMTQzNTUyOTEyNiwtMTA3NjE1
 ODg4MSwtMjA0MTU5MDMwNSwtMjE3OTE0NDI2LDI2MjY5NDM0Ni
 wxNDA4MTA5MDcyLDEzNzY4MDE2NjAsMTUyMTg0MTIyMiw1MjEz
