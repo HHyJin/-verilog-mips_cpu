@@ -5,9 +5,14 @@
 		input [31:0] a, b,
 		output reg [31:0] out);
 ###### 1. input으로 4bit ALUopcode,  operand A,B를 decode stage로 받는다.
+	wire [31:0] sub_ab;
+	wire [31:0] add_ab;
+	wire [31:0] mult_ab;
 ###### 2. operand A,B의 계산값 sub, add, mult를 조합회로로 구성한다.
-######
+###### 3.
 ###### 
+######
+######
 ### 2. control.v
 ### 3. dm.v
 ### 4. ff.v
@@ -25,6 +30,6 @@
 ### 16. sl2.v
 ### 17. testbench.v 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTQwNTgyNjEsNjQxOTI3OTM4LC0yMD
-Q3MDUyNjI3XX0=
+eyJoaXN0b3J5IjpbNTcwNDQ4MDc1LDY0MTkyNzkzOCwtMjA0Nz
+A1MjYyN119
 -->
