@@ -62,7 +62,7 @@
 
 <a name="2"></a>
 ## 2.control.v
-###### module control(input[5:0] Op,Funct, output reg RegWriteD, MemtoRegD,MemWriteD,output reg[3:0] ALUControlD, output reg ALUSrcD, RegDstD, BranchD,JToPCD);
+###### 	module control(input[5:0] Op,Funct, output reg RegWriteD, MemtoRegD,MemWriteD,output reg[3:0] ALUControlD, output reg ALUSrcD, RegDstD, BranchD,JToPCD);
 ######
 ######
 ######
@@ -265,11 +265,11 @@
 ######
 ######
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjMxNjcwMTUsLTYxNTQyMTk3NCwtMj
-AyMDA3OTMzNCwxNjU1MTQ1NzQ2LC0xNDczMjk4ODIyLDE1MDU1
-NDgyMjgsMTQzNTUyOTEyNiwtMTA3NjE1ODg4MSwtMjA0MTU5MD
-MwNSwtMjE3OTE0NDI2LDI2MjY5NDM0NiwxNDA4MTA5MDcyLDEz
-NzY4MDE2NjAsMTUyMTg0MTIyMiw1MjEzMjM3NDUsMTQ0ODE4Nj
-M0OCwtODMyOTkyMjY3LDE4MTM0NDkyMSwtMTU0MzMyNjY1MCw1
-NTc3NDM5NTBdfQ==
+eyJoaXN0b3J5IjpbMjEwMzczMzk1MywtNjE1NDIxOTc0LC0yMD
+IwMDc5MzM0LDE2NTUxNDU3NDYsLTE0NzMyOTg4MjIsMTUwNTU0
+ODIyOCwxNDM1NTI5MTI2LC0xMDc2MTU4ODgxLC0yMDQxNTkwMz
+A1LC0yMTc5MTQ0MjYsMjYyNjk0MzQ2LDE0MDgxMDkwNzIsMTM3
+NjgwMTY2MCwxNTIxODQxMjIyLDUyMTMyMzc0NSwxNDQ4MTg2Mz
+Q4LC04MzI5OTIyNjcsMTgxMzQ0OTIxLC0xNTQzMzI2NjUwLDU1
+Nzc0Mzk1MF19
 -->
