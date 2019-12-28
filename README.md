@@ -36,7 +36,7 @@
 	end
 	endmodule
 ###### 4.  opcode에 따라 reg output에 값을 할당한다.
-###### 
+###### 5. 
 ######
 ######
 ### 2. control.v
@@ -56,7 +56,7 @@
 ### 16. sl2.v
 ### 17. testbench.v 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI1MDU2NTAwLC0xNTQzMzI2NjUwLDU1Nz
-c0Mzk1MCwxMzU3MDI3MDYzLDU3MDQ0ODA3NSw2NDE5Mjc5Mzgs
-LTIwNDcwNTI2MjddfQ==
+eyJoaXN0b3J5IjpbLTUyOTczNTkzNywtMTU0MzMyNjY1MCw1NT
+c3NDM5NTAsMTM1NzAyNzA2Myw1NzA0NDgwNzUsNjQxOTI3OTM4
+LC0yMDQ3MDUyNjI3XX0=
 -->
