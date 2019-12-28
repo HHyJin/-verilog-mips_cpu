@@ -42,7 +42,7 @@
 	assign oflow_sub = (a[31] == b[31] && 	sub_ab[31] != a[31]) ? 1 : 0;
 	assign oflow = (ALUOp == 4'b0010) ? oflow_add : oflow_sub;
 	assign slt = oflow_sub ? ~(a[31]) : a[31];
-##### 3.  연산 간 overflow를 체크 하는 회로를 구성한다.  A가 양수인 경우 overflow가 나면 A<B이다. A가 음수인 경우 overflow가 안나면 A<B이다.  A가 양수의 경우 sub_overflow시 slt를 1로 set, 음수일 경우 slt를 0으로 set하면 된다.  즉 msb를 이용하면 한줄로 코드를 구성할 수 있다.
+#### 3.  연산 간 overflow를 체크 하는 회로를 구성한다.  A가 양수인 경우 overflow가 나면 A<B이다. A가 음수인 경우 overflow가 안나면 A<B이다.  A가 양수의 경우 sub_overflow시 slt를 1로 set, 음수일 경우 slt를 0으로 set하면 된다.  즉 msb를 이용하면 한줄로 코드를 구성할 수 있다.
 	always @(*) 
 	begin
 		case (ALUOp)
@@ -133,11 +133,11 @@
 ## 18. testbench.v 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU5NjEwNzY3LC0yMjI3NjkxMTYsLTI4Mj
-UxODEwMSwtNjE1NDIxOTc0LC0yMDIwMDc5MzM0LDE2NTUxNDU3
-NDYsLTE0NzMyOTg4MjIsMTUwNTU0ODIyOCwxNDM1NTI5MTI2LC
-0xMDc2MTU4ODgxLC0yMDQxNTkwMzA1LC0yMTc5MTQ0MjYsMjYy
-Njk0MzQ2LDE0MDgxMDkwNzIsMTM3NjgwMTY2MCwxNTIxODQxMj
-IyLDUyMTMyMzc0NSwxNDQ4MTg2MzQ4LC04MzI5OTIyNjcsMTgx
-MzQ0OTIxXX0=
+eyJoaXN0b3J5IjpbLTEyOTY0MzYxMDQsLTIyMjc2OTExNiwtMj
+gyNTE4MTAxLC02MTU0MjE5NzQsLTIwMjAwNzkzMzQsMTY1NTE0
+NTc0NiwtMTQ3MzI5ODgyMiwxNTA1NTQ4MjI4LDE0MzU1MjkxMj
+YsLTEwNzYxNTg4ODEsLTIwNDE1OTAzMDUsLTIxNzkxNDQyNiwy
+NjI2OTQzNDYsMTQwODEwOTA3MiwxMzc2ODAxNjYwLDE1MjE4ND
+EyMjIsNTIxMzIzNzQ1LDE0NDgxODYzNDgsLTgzMjk5MjI2Nywx
+ODEzNDQ5MjFdfQ==
 -->
