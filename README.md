@@ -6,9 +6,9 @@
 ## 5. hazard.v
 ## 6. im.v
 ## 7. mips.v
-8. mux2.v
-9. mux3.v
-10. p1.v
+## 8. mux2.v
+## 9. mux3.v
+## 10. p1.v
 11. p2.v
 12. p3.v
 13. p4.v
@@ -17,5 +17,5 @@
 16. sl2.v
 17. testbench.v 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0OTI3OTE2NV19
+eyJoaXN0b3J5IjpbMTA1MzY5NjcxM119
 -->
