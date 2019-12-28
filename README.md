@@ -63,8 +63,7 @@
 <a name="2"></a>
 ## 2.control.v
 	module control(input[5:0] Op,Funct, output reg RegWriteD, MemtoRegD,MemWriteD,output reg[3:0] ALUControlD, output reg ALUSrcD, RegDstD, BranchD,JToPCD);
-###### 
-######
+###### 1. input으로 6bit opcode를 받아 ######
 ######
 ######
 ######
@@ -266,7 +265,7 @@
 ######
 ######
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTc4MTkwOTMsLTYxNTQyMTk3NCwtMj
+eyJoaXN0b3J5IjpbLTEzNTA4NzcwMjQsLTYxNTQyMTk3NCwtMj
 AyMDA3OTMzNCwxNjU1MTQ1NzQ2LC0xNDczMjk4ODIyLDE1MDU1
 NDgyMjgsMTQzNTUyOTEyNiwtMTA3NjE1ODg4MSwtMjA0MTU5MD
 MwNSwtMjE3OTE0NDI2LDI2MjY5NDM0NiwxNDA4MTA5MDcyLDEz
