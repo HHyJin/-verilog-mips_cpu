@@ -1,5 +1,5 @@
 # 5 stage mips cpu(verilog)
-### 0. 목차  
+## 0. 목차  
 [1. alu.v](#1)  
 [2. control.v](#2)  
 [3. dm.v](#3)  
@@ -22,7 +22,7 @@
 
 
 <a name="1"></a>
-### 1.alu.v
+## 1.alu.v
 ###### * branch명령어와 jump명령어는 ALUopcode를 0000으로 setting
 
 	module alu(
@@ -73,7 +73,7 @@
 ######
 
 <a name="3"></a>
-### 3. dm.v
+## 3. dm.v
 ######
 ######
 ######
@@ -85,7 +85,7 @@
 ######
 
 <a name="4"></a>
-### 4. ff.v
+## 4. ff.v
 ######
 ######
 ######
@@ -97,7 +97,7 @@
 ######
 
 <a name="5"></a>
-### 5. hazard.v
+## 5. hazard.v
 ######
 ######
 ######
@@ -109,7 +109,7 @@
 ######
 
 <a name="6"></a>
-### 6. im.v
+## 6. im.v
 ######
 ######
 ######
@@ -121,7 +121,7 @@
 ######
 
 <a name="7"></a>
-### 7. mips.v
+## 7. mips.v
 ######
 ######
 ######
@@ -133,7 +133,7 @@
 ######
 
 <a name="8"></a>
-### 8. mux2.v
+## 8. mux2.v
 ######
 ######
 ######
@@ -145,7 +145,7 @@
 ######
 
 <a name="9"></a>
-### 9. mux3.v
+## 9. mux3.v
 ######
 ######
 ######
@@ -157,7 +157,7 @@
 ######
 
 <a name="10"></a>
-### 10. p1.v
+## 10. p1.v
 ######
 ######
 ######
@@ -169,7 +169,7 @@
 ######
 
 <a name="11"></a>
-### 11. p2.v
+## 11. p2.v
 ######
 ######
 ######
@@ -181,7 +181,7 @@
 ######
 
 <a name="12"></a>
-### 12. p3.v
+## 12. p3.v
 ######
 ######
 ######
@@ -194,7 +194,7 @@
 
 
 <a name="13"></a>
-### 13. p4.v
+## 13. p4.v
 ######
 ######
 ######
@@ -206,7 +206,7 @@
 ######
 
 <a name="14"></a>
-### 14. pcplus4.v
+## 14. pcplus4.v
 ######
 ######
 ######
@@ -218,7 +218,7 @@
 ######
 
 <a name="15"></a>
-### 15. rf.v
+## 15. rf.v
 ######
 ######
 ######
@@ -230,7 +230,7 @@
 ######
 
 <a name="16"></a>
-### 16. signex.v
+## 16. signex.v
 ######
 ######
 ######
@@ -242,7 +242,7 @@
 ######
 
 <a name="17"></a>
-### 17. sl2.v
+## 17. sl2.v
 ######
 ######
 ######
@@ -254,7 +254,7 @@
 ######
 
 <a name="18"></a>
-### 18. testbench.v 
+## 18. testbench.v 
 ######
 ######
 ######
@@ -265,11 +265,11 @@
 ######
 ######
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTU4NTMyMjUsLTYxNTQyMTk3NCwtMj
-AyMDA3OTMzNCwxNjU1MTQ1NzQ2LC0xNDczMjk4ODIyLDE1MDU1
-NDgyMjgsMTQzNTUyOTEyNiwtMTA3NjE1ODg4MSwtMjA0MTU5MD
-MwNSwtMjE3OTE0NDI2LDI2MjY5NDM0NiwxNDA4MTA5MDcyLDEz
-NzY4MDE2NjAsMTUyMTg0MTIyMiw1MjEzMjM3NDUsMTQ0ODE4Nj
-M0OCwtODMyOTkyMjY3LDE4MTM0NDkyMSwtMTU0MzMyNjY1MCw1
-NTc3NDM5NTBdfQ==
+eyJoaXN0b3J5IjpbMzc0ODc3NDczLC02MTU0MjE5NzQsLTIwMj
+AwNzkzMzQsMTY1NTE0NTc0NiwtMTQ3MzI5ODgyMiwxNTA1NTQ4
+MjI4LDE0MzU1MjkxMjYsLTEwNzYxNTg4ODEsLTIwNDE1OTAzMD
+UsLTIxNzkxNDQyNiwyNjI2OTQzNDYsMTQwODEwOTA3MiwxMzc2
+ODAxNjYwLDE1MjE4NDEyMjIsNTIxMzIzNzQ1LDE0NDgxODYzND
+gsLTgzMjk5MjI2NywxODEzNDQ5MjEsLTE1NDMzMjY2NTAsNTU3
+NzQzOTUwXX0=
 -->
