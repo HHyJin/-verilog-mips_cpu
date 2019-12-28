@@ -47,9 +47,45 @@
 ######
 ######
 ### 3. dm.v
+######
+######
+######
+######
+######
+######
+######
+######
+######
 ### 4. ff.v
+######
+######
+######
+######
+######
+######
+######
+######
+######
 ### 5. hazard.v
+######
+######
+######
+######
+######
+######
+######
+######
+######
 ### 6. im.v
+######
+######
+######
+######
+######
+######
+######
+######
+######
 ### 7. mips.v
 ### 8. mux2.v
 ### 9. mux3.v
@@ -62,8 +98,8 @@
 ### 16. sl2.v
 ### 17. testbench.v 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMzOTMzNzY2LDUyMTMyMzc0NSwxNDQ4MT
-g2MzQ4LC04MzI5OTIyNjcsMTgxMzQ0OTIxLC0xNTQzMzI2NjUw
-LDU1Nzc0Mzk1MCwxMzU3MDI3MDYzLDU3MDQ0ODA3NSw2NDE5Mj
-c5MzgsLTIwNDcwNTI2MjddfQ==
+eyJoaXN0b3J5IjpbMTUyMTg0MTIyMiw1MjEzMjM3NDUsMTQ0OD
+E4NjM0OCwtODMyOTkyMjY3LDE4MTM0NDkyMSwtMTU0MzMyNjY1
+MCw1NTc3NDM5NTAsMTM1NzAyNzA2Myw1NzA0NDgwNzUsNjQxOT
+I3OTM4LC0yMDQ3MDUyNjI3XX0=
 -->
