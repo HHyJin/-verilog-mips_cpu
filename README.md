@@ -18,6 +18,22 @@
 	assign oflow = (ALUOp == 4'b0010) ? oflow_add : oflow_sub;
 	assign slt = oflow_sub ? ~(a[31]) : a[31];
 ###### 3.  연산 간 overflow를 체크 하는 회로를 구성한다.
+	always @(*) 
+	begin
+		case (ALUOp)
+			4'b0010  : out = add_ab;		/* add */
+			4'b0000  : out = a & b;			/* and */
+			4'b1000  : out = mult_ab;		/* mult */
+			4'b1100  : out = ~(a | b);		/* nor */
+			4'b0001  : out = a | b;			/* or */
+			4'b0111  : out = {31'd0, slt};		/* slt */
+			4'b0110  : out = sub_ab;		/* sub */
+			4'b1101  : out = a ^ b;			/* xor */
+			default  : out = 0;
+		endcase
+	end
+	endmodule
+###### 4.  
 ###### 
 ######
 ######
@@ -38,6 +54,6 @@
 ### 16. sl2.v
 ### 17. testbench.v 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTQwMjI4NjUsNTcwNDQ4MDc1LDY0MT
-kyNzkzOCwtMjA0NzA1MjYyN119
+eyJoaXN0b3J5IjpbMTAzODk1NDMwMyw1NzA0NDgwNzUsNjQxOT
+I3OTM4LC0yMDQ3MDUyNjI3XX0=
 -->
