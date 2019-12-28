@@ -1,7 +1,7 @@
 # 5 stage mips cpu(verilog)
 ### 1. alu.v
-## 2. control.v
-## 3. dm.v
+### 2. control.v
+### 3. dm.v
 ## 4. ff.v
 ## 5. hazard.v
 ## 6. im.v
@@ -17,5 +17,5 @@
 ## 16. sl2.v
 ## 17. testbench.v 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc5MDE2ODI0XX0=
+eyJoaXN0b3J5IjpbLTE0NDAwNjg1NTJdfQ==
 -->
