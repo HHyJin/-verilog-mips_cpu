@@ -1,5 +1,5 @@
 # 5 stage mips cpu(verilog)
-1. [alu.v](#alu.v)  
+1. [alu.v](###1.alu.v)  
 2. [control.v](#control.v)
 ### 1. alu.v
 ###### * branch명령어와 jump명령어는 ALUopcode를 0000으로 setting
@@ -230,10 +230,10 @@
 ######
 ######
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzYxNTg4ODEsLTIwNDE1OTAzMDUsLT
-IxNzkxNDQyNiwyNjI2OTQzNDYsMTQwODEwOTA3MiwxMzc2ODAx
-NjYwLDE1MjE4NDEyMjIsNTIxMzIzNzQ1LDE0NDgxODYzNDgsLT
-gzMjk5MjI2NywxODEzNDQ5MjEsLTE1NDMzMjY2NTAsNTU3NzQz
-OTUwLDEzNTcwMjcwNjMsNTcwNDQ4MDc1LDY0MTkyNzkzOCwtMj
-A0NzA1MjYyN119
+eyJoaXN0b3J5IjpbNDEyNzA1NTM4LC0xMDc2MTU4ODgxLC0yMD
+QxNTkwMzA1LC0yMTc5MTQ0MjYsMjYyNjk0MzQ2LDE0MDgxMDkw
+NzIsMTM3NjgwMTY2MCwxNTIxODQxMjIyLDUyMTMyMzc0NSwxND
+Q4MTg2MzQ4LC04MzI5OTIyNjcsMTgxMzQ0OTIxLC0xNTQzMzI2
+NjUwLDU1Nzc0Mzk1MCwxMzU3MDI3MDYzLDU3MDQ0ODA3NSw2ND
+E5Mjc5MzgsLTIwNDcwNTI2MjddfQ==
 -->
