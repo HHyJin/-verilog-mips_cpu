@@ -23,6 +23,7 @@
 
 <a name="1"></a>
 ## 1.alu.v
+###### * branch명령어와 jump명령어는 ALUopcode를 0000으로 setting
 
 	module alu(
 		input [3:0] ALUOp,
@@ -35,13 +36,13 @@
 	assign sub_ab = a - b;
 	assign add_ab = a + b;
 	assign mult_ab = a * b;
-#### 2. operand A,B의 계산값 sub, add, mult, slt를 조합회로로 구성한다.
+###### 2. operand A,B의 계산값 sub, add, mult, slt를 조합회로로 구성한다.
 	wire oflow_add, oflow_sub, oflow, slt;
 	assign oflow_add = (a[31] == b[31] && 	add_ab[31] != a[31]) ? 1 : 0;
 	assign oflow_sub = (a[31] == b[31] && 	sub_ab[31] != a[31]) ? 1 : 0;
 	assign oflow = (ALUOp == 4'b0010) ? oflow_add : oflow_sub;
 	assign slt = oflow_sub ? ~(a[31]) : a[31];
-#### 3.  연산 간 overflow를 체크 하는 회로를 구성한다.  A가 양수인 경우 overflow가 나면 A<B이다. A가 음수인 경우 overflow가 안나면 A<B이다.  A가 양수의 경우 sub_overflow시 slt를 1로 set, 음수일 경우 slt를 0으로 set하면 된다.  즉 msb를 이용하면 한줄로 코드를 구성할 수 있다.
+###### 3.  연산 간 overflow를 체크 하는 회로를 구성한다.  A가 양수인 경우 overflow가 나면 A<B이다. A가 음수인 경우 overflow가 안나면 A<B이다.  A가 양수의 경우 sub_overflow시 slt를 1로 set, 음수일 경우 slt를 0으로 set하면 된다.  즉 msb를 이용하면 한줄로 코드를 구성할 수 있다.
 	always @(*) 
 	begin
 		case (ALUOp)
@@ -57,86 +58,217 @@
 		endcase
 	end
 	endmodule
-#### 4.  opcode에 따라 reg output에 값을 할당한다.  
+###### 4.  opcode에 따라 reg output에 값을 할당한다.  
 
 <a name="2"></a>
 ## 2.control.v
 	module control(input[5:0] Op,Funct, output reg RegWriteD, MemtoRegD,MemWriteD,output reg[3:0] ALUControlD, output reg ALUSrcD, RegDstD, BranchD,JToPCD);
-#### 1. input으로 6bit opcode를 받아 각 control bit들을 set한다.
-#### 2. bit appendix
+###### 1. input으로 6bit opcode를 받아 각 control bit들을 set한다.
+###### 2. bit appendix
 * RegWriteD(reg file write enable), RegDstD(reg file wirte address)
+######
+######
+######
+######
 
 <a name="3"></a>
 ## 3. dm.v
-
+######
+######
+######
+######
+######
+######
+######
+######
+######
 
 <a name="4"></a>
 ## 4. ff.v
-
+######
+######
+######
+######
+######
+######
+######
+######
+######
 
 <a name="5"></a>
 ## 5. hazard.v
-
+######
+######
+######
+######
+######
+######
+######
+######
+######
 
 <a name="6"></a>
 ## 6. im.v
-
+######
+######
+######
+######
+######
+######
+######
+######
+######
 
 <a name="7"></a>
 ## 7. mips.v
-
+######
+######
+######
+######
+######
+######
+######
+######
+######
 
 <a name="8"></a>
 ## 8. mux2.v
-
+######
+######
+######
+######
+######
+######
+######
+######
+######
 
 <a name="9"></a>
 ## 9. mux3.v
-
+######
+######
+######
+######
+######
+######
+######
+######
+######
 
 <a name="10"></a>
 ## 10. p1.v
-
+######
+######
+######
+######
+######
+######
+######
+######
+######
 
 <a name="11"></a>
 ## 11. p2.v
-
+######
+######
+######
+######
+######
+######
+######
+######
+######
 
 <a name="12"></a>
 ## 12. p3.v
-
+######
+######
+######
+######
+######
+######
+######
+######
+######
 
 
 <a name="13"></a>
 ## 13. p4.v
-
+######
+######
+######
+######
+######
+######
+######
+######
+######
 
 <a name="14"></a>
 ## 14. pcplus4.v
-
+######
+######
+######
+######
+######
+######
+######
+######
+######
 
 <a name="15"></a>
 ## 15. rf.v
-
+######
+######
+######
+######
+######
+######
+######
+######
+######
 
 <a name="16"></a>
 ## 16. signex.v
-
-
+######
+######
+######
+######
+######
+######
+######
+######
+######
 
 <a name="17"></a>
 ## 17. sl2.v
-
+######
+######
+######
+######
+######
+######
+######
+######
+######
 
 <a name="18"></a>
 ## 18. testbench.v 
-
+######
+######
+######
+######
+######
+######
+######
+######
+######
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzQyNDA2OTgsLTIyMjc2OTExNiwtMj
-gyNTE4MTAxLC02MTU0MjE5NzQsLTIwMjAwNzkzMzQsMTY1NTE0
-NTc0NiwtMTQ3MzI5ODgyMiwxNTA1NTQ4MjI4LDE0MzU1MjkxMj
-YsLTEwNzYxNTg4ODEsLTIwNDE1OTAzMDUsLTIxNzkxNDQyNiwy
-NjI2OTQzNDYsMTQwODEwOTA3MiwxMzc2ODAxNjYwLDE1MjE4ND
-EyMjIsNTIxMzIzNzQ1LDE0NDgxODYzNDgsLTgzMjk5MjI2Nywx
-ODEzNDQ5MjFdfQ==
+eyJoaXN0b3J5IjpbMzU4NzQ4MTMyLC0yMjI3NjkxMTYsLTI4Mj
+UxODEwMSwtNjE1NDIxOTc0LC0yMDIwMDc5MzM0LDE2NTUxNDU3
+NDYsLTE0NzMyOTg4MjIsMTUwNTU0ODIyOCwxNDM1NTI5MTI2LC
+0xMDc2MTU4ODgxLC0yMDQxNTkwMzA1LC0yMTc5MTQ0MjYsMjYy
+Njk0MzQ2LDE0MDgxMDkwNzIsMTM3NjgwMTY2MCwxNTIxODQxMj
+IyLDUyMTMyMzc0NSwxNDQ4MTg2MzQ4LC04MzI5OTIyNjcsMTgx
+MzQ0OTIxXX0=
 -->
