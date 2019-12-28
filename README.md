@@ -1,5 +1,5 @@
 # 5 stage mips cpu(verilog)
-#### 1. alu.v
+### 1. alu.v
 	module alu(
 		input [3:0] ALUOp,
 		input [31:0] a, b,
@@ -54,6 +54,6 @@
 ### 16. sl2.v
 ### 17. testbench.v 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NzAyNzA2Myw1NzA0NDgwNzUsNjQxOT
-I3OTM4LC0yMDQ3MDUyNjI3XX0=
+eyJoaXN0b3J5IjpbNTU3NzQzOTUwLDEzNTcwMjcwNjMsNTcwND
+Q4MDc1LDY0MTkyNzkzOCwtMjA0NzA1MjYyN119
 -->
