@@ -1,6 +1,6 @@
 # 5 stage mips cpu(verilog)
 #### 1. alu.v
-###### 인풋으로
+###### input으로 4
 ### 2. control.v
 ### 3. dm.v
 ### 4. ff.v
@@ -18,5 +18,5 @@
 ### 16. sl2.v
 ### 17. testbench.v 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MDQ3MTg5NCwtMjA0NzA1MjYyN119
+eyJoaXN0b3J5IjpbLTQ2MDUxNjk0OSwtMjA0NzA1MjYyN119
 -->
