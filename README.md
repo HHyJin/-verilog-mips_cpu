@@ -1,6 +1,6 @@
 # 5 stage mips cpu(verilog)
 ### 1. alu.v
-###### branch명령어와 jump명령어는 ALUopcode를 0000으로 setting
+###### * branch명령어와 jump명령어는 ALUopcode를 0000으로 setting
 	module alu(
 		input [3:0] ALUOp,
 		input [31:0] a, b,
@@ -55,7 +55,7 @@
 ### 16. sl2.v
 ### 17. testbench.v 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjMwNDExMiw1NTc3NDM5NTAsMTM1Nz
-AyNzA2Myw1NzA0NDgwNzUsNjQxOTI3OTM4LC0yMDQ3MDUyNjI3
-XX0=
+eyJoaXN0b3J5IjpbLTE1NDMzMjY2NTAsNTU3NzQzOTUwLDEzNT
+cwMjcwNjMsNTcwNDQ4MDc1LDY0MTkyNzkzOCwtMjA0NzA1MjYy
+N119
 -->
