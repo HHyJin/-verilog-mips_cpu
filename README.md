@@ -108,7 +108,7 @@
 ######
 ######
 
-<a name="1"></a>
+<a name="6"></a>
 ### 6. im.v
 ######
 ######
@@ -120,7 +120,7 @@
 ######
 ######
 
-
+<a name="7"></a>
 ### 7. mips.v
 ######
 ######
@@ -132,7 +132,7 @@
 ######
 ######
 
-
+<a name="8"></a>
 ### 8. mux2.v
 ######
 ######
@@ -251,11 +251,11 @@
 ######
 ######
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzA0MDU3NzcsMTY1NTE0NTc0NiwtMT
-Q3MzI5ODgyMiwxNTA1NTQ4MjI4LDE0MzU1MjkxMjYsLTEwNzYx
-NTg4ODEsLTIwNDE1OTAzMDUsLTIxNzkxNDQyNiwyNjI2OTQzND
-YsMTQwODEwOTA3MiwxMzc2ODAxNjYwLDE1MjE4NDEyMjIsNTIx
-MzIzNzQ1LDE0NDgxODYzNDgsLTgzMjk5MjI2NywxODEzNDQ5Mj
-EsLTE1NDMzMjY2NTAsNTU3NzQzOTUwLDEzNTcwMjcwNjMsNTcw
-NDQ4MDc1XX0=
+eyJoaXN0b3J5IjpbOTkzNDA2OSwxNjU1MTQ1NzQ2LC0xNDczMj
+k4ODIyLDE1MDU1NDgyMjgsMTQzNTUyOTEyNiwtMTA3NjE1ODg4
+MSwtMjA0MTU5MDMwNSwtMjE3OTE0NDI2LDI2MjY5NDM0NiwxND
+A4MTA5MDcyLDEzNzY4MDE2NjAsMTUyMTg0MTIyMiw1MjEzMjM3
+NDUsMTQ0ODE4NjM0OCwtODMyOTkyMjY3LDE4MTM0NDkyMSwtMT
+U0MzMyNjY1MCw1NTc3NDM5NTAsMTM1NzAyNzA2Myw1NzA0NDgw
+NzVdfQ==
 -->
