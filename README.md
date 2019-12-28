@@ -1,22 +1,23 @@
 # 5 stage mips cpu(verilog)
 [1. alu.v](#alu.v)
 [2. control.v](#contol.v)
-[2. control.v](#contol.v)
-[2. control.v](#contol.v)
-[2. control.v](#contol.v)
-[2. control.v](#contol.v)
-[2. control.v](#contol.v)
-[2. control.v](#contol.v)
-[2. control.v](#contol.v)
-[2. control.v](#contol.v)
-[2. control.v](#contol.v)
-[2. control.v](#contol.v)
-[2. control.v](#contol.v)
-[2. control.v](#contol.v)
-[2. control.v](#contol.v)
-[2. control.v](#contol.v)
-[2. control.v](#contol.v)
-
+[3. dm.v](#contol.v)
+[4. ff.v](#contol.v)
+[5. hazard.v](#contol.v)
+[6. im.v](#contol.v)
+[7. mips.v](#contol.v)
+[8. mux2.v](#contol.v)
+[9. mux3.v](#contol.v)
+[10. p1.v](#contol.v)
+[11. p2.v](#contol.v)
+[12. p3.v](#contol.v)
+[13. p4.v](#contol.v)
+[14. control.v](#contol.v)
+[15. control.v](#contol.v)
+[16. control.v](#contol.v)
+[17. control.v](#contol.v)
+[18. control.v](#contol.v)
+[19. control.v](#contol.v)
 <a name="alu.v"></a>
 ### 1.alu.v
 ###### * branch명령어와 jump명령어는 ALUopcode를 0000으로 setting
@@ -246,7 +247,7 @@
 ######
 ######
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0ODk3NTg0OCwxNjU1MTQ1NzQ2LC0xND
+eyJoaXN0b3J5IjpbMTQwNDQ3NDM0MywxNjU1MTQ1NzQ2LC0xND
 czMjk4ODIyLDE1MDU1NDgyMjgsMTQzNTUyOTEyNiwtMTA3NjE1
 ODg4MSwtMjA0MTU5MDMwNSwtMjE3OTE0NDI2LDI2MjY5NDM0Ni
 wxNDA4MTA5MDcyLDEzNzY4MDE2NjAsMTUyMTg0MTIyMiw1MjEz
