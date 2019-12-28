@@ -2,8 +2,8 @@
 ### 1. alu.v
 ### 2. control.v
 ### 3. dm.v
-## 4. ff.v
-## 5. hazard.v
+### 4. ff.v
+### 5. hazard.v
 ## 6. im.v
 ## 7. mips.v
 ## 8. mux2.v
@@ -17,5 +17,5 @@
 ## 16. sl2.v
 ## 17. testbench.v 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDAwNjg1NTJdfQ==
+eyJoaXN0b3J5IjpbNzc0MjE5NTQ0XX0=
 -->
