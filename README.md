@@ -9,13 +9,13 @@
 ### 8. mux2.v
 ### 9. mux3.v
 ### 10. p1.v
-## 11. p2.v
-## 12. p3.v
-## 13. p4.v
+### 11. p2.v
+### 12. p3.v
+### 13. p4.v
 ## 14. pcplus4.v
 ## 15. rf.v
 ## 16. sl2.v
 ## 17. testbench.v 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MzA0MjU4OV19
+eyJoaXN0b3J5IjpbLTE2NTk0NzkxNjRdfQ==
 -->
