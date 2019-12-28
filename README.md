@@ -1,5 +1,5 @@
 # 5 stage mips cpu(verilog)
-목차  
+## 목차  
 [1. alu.v](#1.v)  
 [2. control.v](#2.v)  
 [3. dm.v](#3v)  
@@ -253,7 +253,7 @@
 ######
 ######
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzY2MDY2NzcsMTY1NTE0NTc0NiwtMT
+eyJoaXN0b3J5IjpbLTIwNTUzNDI5NTMsMTY1NTE0NTc0NiwtMT
 Q3MzI5ODgyMiwxNTA1NTQ4MjI4LDE0MzU1MjkxMjYsLTEwNzYx
 NTg4ODEsLTIwNDE1OTAzMDUsLTIxNzkxNDQyNiwyNjI2OTQzND
 YsMTQwODEwOTA3MiwxMzc2ODAxNjYwLDE1MjE4NDEyMjIsNTIx
