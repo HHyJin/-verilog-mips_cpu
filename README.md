@@ -8,9 +8,12 @@
 	wire [31:0] sub_ab;
 	wire [31:0] add_ab;
 	wire [31:0] mult_ab;
-###### 2. operand A,B의 계산값 sub, add, mult를 조합회로로 구성한다.
+	assign sub_ab = a - b;
+	assign add_ab = a + b;
+	assign mult_ab = a * b;
+###### 2. operand A,B의 계산값 sub, add, mult, slt를 조합회로로 구성한다.
 	wire oflow_add, oflow_sub, oflow, slt;
-###### 3.  ㅇ
+###### 3.  
 ###### 
 ######
 ######
@@ -31,6 +34,6 @@
 ### 16. sl2.v
 ### 17. testbench.v 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzM5MjMyNDMsNTcwNDQ4MDc1LDY0MT
+eyJoaXN0b3J5IjpbLTIwMDkyMjA0NDAsNTcwNDQ4MDc1LDY0MT
 kyNzkzOCwtMjA0NzA1MjYyN119
 -->
