@@ -19,7 +19,7 @@
 	assign oflow_sub = (a[31] == b[31] && 	sub_ab[31] != a[31]) ? 1 : 0;
 	assign oflow = (ALUOp == 4'b0010) ? oflow_add : oflow_sub;
 	assign slt = oflow_sub ? ~(a[31]) : a[31];
-###### 3.  연산 간 overflow를 체크 하는 회로를 구성한다. slt의 경우 sub_overflow시 msb bit가 바뀌
+###### 3.  연산 간 overflow를 체크 하는 회로를 구성한다.  sub_overflow시 msb bit가 바뀌므로 slt의 ms
 	always @(*) 
 	begin
 		case (ALUOp)
@@ -56,7 +56,7 @@
 ### 16. sl2.v
 ### 17. testbench.v 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0ODQ5ODM0OSwtODMyOTkyMjY3LDE4MT
+eyJoaXN0b3J5IjpbMTIyODIyODczOCwtODMyOTkyMjY3LDE4MT
 M0NDkyMSwtMTU0MzMyNjY1MCw1NTc3NDM5NTAsMTM1NzAyNzA2
 Myw1NzA0NDgwNzUsNjQxOTI3OTM4LC0yMDQ3MDUyNjI3XX0=
 -->
