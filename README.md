@@ -58,7 +58,7 @@
 		endcase
 	end
 	endmodule
-###### 4.  opcode에 따라 reg output에 값을 할당한다.      
+###### 4.  opcode에 따라 reg output에 값을 할당한다.  
 
 <a name="2"></a>
 ### 2.control.v
@@ -265,7 +265,7 @@
 ######
 ######
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MjYzNjc3OCwtNjE1NDIxOTc0LC0yMD
+eyJoaXN0b3J5IjpbMTYwMjQ3MzgzNCwtNjE1NDIxOTc0LC0yMD
 IwMDc5MzM0LDE2NTUxNDU3NDYsLTE0NzMyOTg4MjIsMTUwNTU0
 ODIyOCwxNDM1NTI5MTI2LC0xMDc2MTU4ODgxLC0yMDQxNTkwMz
 A1LC0yMTc5MTQ0MjYsMjYyNjk0MzQ2LDE0MDgxMDkwNzIsMTM3
