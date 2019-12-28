@@ -1,9 +1,4 @@
 # 5 stage mips cpu(verilog)
-[TOC]
-
-# Header 1
-
-## Header 2
 
 ### 1.alu.v
 ###### * branch명령어와 jump명령어는 ALUopcode를 0000으로 setting
@@ -234,7 +229,7 @@
 ######
 ######
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NTM2NTUyNCwtMTQ3MzI5ODgyMiwxNT
+eyJoaXN0b3J5IjpbMTY1NTE0NTc0NiwtMTQ3MzI5ODgyMiwxNT
 A1NTQ4MjI4LDE0MzU1MjkxMjYsLTEwNzYxNTg4ODEsLTIwNDE1
 OTAzMDUsLTIxNzkxNDQyNiwyNjI2OTQzNDYsMTQwODEwOTA3Mi
 wxMzc2ODAxNjYwLDE1MjE4NDEyMjIsNTIxMzIzNzQ1LDE0NDgx
