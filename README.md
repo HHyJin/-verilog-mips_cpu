@@ -33,7 +33,7 @@
 		endcase
 	end
 	endmodule
-###### 4.  
+###### 4.  opcode에 따라 reg output에 값을 할당한다.
 ###### 
 ######
 ######
@@ -54,6 +54,6 @@
 ### 16. sl2.v
 ### 17. testbench.v 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzODk1NDMwMyw1NzA0NDgwNzUsNjQxOT
+eyJoaXN0b3J5IjpbMTM1NzAyNzA2Myw1NzA0NDgwNzUsNjQxOT
 I3OTM4LC0yMDQ3MDUyNjI3XX0=
 -->
