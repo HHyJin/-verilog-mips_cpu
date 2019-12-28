@@ -13,7 +13,7 @@
 	assign mult_ab = a * b;
 ###### 2. operand A,B의 계산값 sub, add, mult, slt를 조합회로로 구성한다.
 	wire oflow_add, oflow_sub, oflow, slt;
-###### 3.  
+###### 3.  연산 간 overflow를 체크 하는 회로를 구성한다.
 ###### 
 ######
 ######
@@ -34,6 +34,6 @@
 ### 16. sl2.v
 ### 17. testbench.v 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDkyMjA0NDAsNTcwNDQ4MDc1LDY0MT
-kyNzkzOCwtMjA0NzA1MjYyN119
+eyJoaXN0b3J5IjpbNDQ1Njc0MDczLDU3MDQ0ODA3NSw2NDE5Mj
+c5MzgsLTIwNDcwNTI2MjddfQ==
 -->
