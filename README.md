@@ -63,9 +63,9 @@
 <a name="2"></a>
 ## 2.control.v
 	module control(input[5:0] Op,Funct, output reg RegWriteD, MemtoRegD,MemWriteD,output reg[3:0] ALUControlD, output reg ALUSrcD, RegDstD, BranchD,JToPCD);
-###### 1. input으로 6bit opcode를 받아 각 control bit들을 set한다.
-###### 2. bit appendix
-######  RegWriteD(reg file write enable), RegDstD(reg file wirte address)
+1. input으로 6bit opcode를 받아 각 control bit들을 set한다.
+2. bit appendix
+* RegWriteD(reg file write enable), RegDstD(reg file wirte address)
 ######
 ######
 ######
@@ -264,11 +264,11 @@
 ######
 ######
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI3NDEzNDU0LC0yODI1MTgxMDEsLTYxNT
-QyMTk3NCwtMjAyMDA3OTMzNCwxNjU1MTQ1NzQ2LC0xNDczMjk4
-ODIyLDE1MDU1NDgyMjgsMTQzNTUyOTEyNiwtMTA3NjE1ODg4MS
-wtMjA0MTU5MDMwNSwtMjE3OTE0NDI2LDI2MjY5NDM0NiwxNDA4
-MTA5MDcyLDEzNzY4MDE2NjAsMTUyMTg0MTIyMiw1MjEzMjM3ND
-UsMTQ0ODE4NjM0OCwtODMyOTkyMjY3LDE4MTM0NDkyMSwtMTU0
-MzMyNjY1MF19
+eyJoaXN0b3J5IjpbLTIyMjc2OTExNiwtMjgyNTE4MTAxLC02MT
+U0MjE5NzQsLTIwMjAwNzkzMzQsMTY1NTE0NTc0NiwtMTQ3MzI5
+ODgyMiwxNTA1NTQ4MjI4LDE0MzU1MjkxMjYsLTEwNzYxNTg4OD
+EsLTIwNDE1OTAzMDUsLTIxNzkxNDQyNiwyNjI2OTQzNDYsMTQw
+ODEwOTA3MiwxMzc2ODAxNjYwLDE1MjE4NDEyMjIsNTIxMzIzNz
+Q1LDE0NDgxODYzNDgsLTgzMjk5MjI2NywxODEzNDQ5MjEsLTE1
+NDMzMjY2NTBdfQ==
 -->
