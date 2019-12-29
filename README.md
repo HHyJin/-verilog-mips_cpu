@@ -64,11 +64,13 @@
 ## 2.control.v
 	module control(input[5:0] Op,Funct, output reg RegWriteD, MemtoRegD,MemWriteD,output reg[3:0] ALUControlD, output reg ALUSrcD, RegDstD, BranchD,JToPCD);
 ###### 1. input으로 6bit opcode를 받아 각 control bit들을 set한다.
-###### 2. control bit
+###### 2. control bit('choose' means the control bit of mux)
 * RegWriteD(reg file write enable)
-* RegDstD(reg file wirte address)
+* RegDstD(choose reg file wirte address)
 * MemtoRegD(choose wirte data to reg)
-* MemWriteD
+* MemWriteD(data memory write enable)
+* ALUControlD(choose alu operator)
+* ALUSrcD(
 ######
 ######
 ######
@@ -267,11 +269,11 @@
 ######
 ######
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzkxNjczNDQsMzU4NzQ4MTMyLC0yMj
-I3NjkxMTYsLTI4MjUxODEwMSwtNjE1NDIxOTc0LC0yMDIwMDc5
-MzM0LDE2NTUxNDU3NDYsLTE0NzMyOTg4MjIsMTUwNTU0ODIyOC
-wxNDM1NTI5MTI2LC0xMDc2MTU4ODgxLC0yMDQxNTkwMzA1LC0y
-MTc5MTQ0MjYsMjYyNjk0MzQ2LDE0MDgxMDkwNzIsMTM3NjgwMT
-Y2MCwxNTIxODQxMjIyLDUyMTMyMzc0NSwxNDQ4MTg2MzQ4LC04
-MzI5OTIyNjddfQ==
+eyJoaXN0b3J5IjpbMTg3NDg0MDIyMCwzNTg3NDgxMzIsLTIyMj
+c2OTExNiwtMjgyNTE4MTAxLC02MTU0MjE5NzQsLTIwMjAwNzkz
+MzQsMTY1NTE0NTc0NiwtMTQ3MzI5ODgyMiwxNTA1NTQ4MjI4LD
+E0MzU1MjkxMjYsLTEwNzYxNTg4ODEsLTIwNDE1OTAzMDUsLTIx
+NzkxNDQyNiwyNjI2OTQzNDYsMTQwODEwOTA3MiwxMzc2ODAxNj
+YwLDE1MjE4NDEyMjIsNTIxMzIzNzQ1LDE0NDgxODYzNDgsLTgz
+Mjk5MjI2N119
 -->
