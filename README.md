@@ -116,8 +116,11 @@
 
 <a name="3"></a>
 ## 3. dm.v
-###### 1. Data memory(Input data is i
-######
+###### 1. Data memory
+###### 2. input
+ * WE : MemWrite
+ * WD : write data
+ * A : wirte 
 ######
 ######
 ######
@@ -307,11 +310,11 @@
 ######
 ######
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4OTg5MDE5NSwzNTg3NDgxMzIsLTIyMj
-c2OTExNiwtMjgyNTE4MTAxLC02MTU0MjE5NzQsLTIwMjAwNzkz
-MzQsMTY1NTE0NTc0NiwtMTQ3MzI5ODgyMiwxNTA1NTQ4MjI4LD
-E0MzU1MjkxMjYsLTEwNzYxNTg4ODEsLTIwNDE1OTAzMDUsLTIx
-NzkxNDQyNiwyNjI2OTQzNDYsMTQwODEwOTA3MiwxMzc2ODAxNj
-YwLDE1MjE4NDEyMjIsNTIxMzIzNzQ1LDE0NDgxODYzNDgsLTgz
-Mjk5MjI2N119
+eyJoaXN0b3J5IjpbLTIwNTU0NDkyNzYsMzU4NzQ4MTMyLC0yMj
+I3NjkxMTYsLTI4MjUxODEwMSwtNjE1NDIxOTc0LC0yMDIwMDc5
+MzM0LDE2NTUxNDU3NDYsLTE0NzMyOTg4MjIsMTUwNTU0ODIyOC
+wxNDM1NTI5MTI2LC0xMDc2MTU4ODgxLC0yMDQxNTkwMzA1LC0y
+MTc5MTQ0MjYsMjYyNjk0MzQ2LDE0MDgxMDkwNzIsMTM3NjgwMT
+Y2MCwxNTIxODQxMjIyLDUyMTMyMzc0NSwxNDQ4MTg2MzQ4LC04
+MzI5OTIyNjddfQ==
 -->
