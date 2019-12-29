@@ -131,7 +131,7 @@
 
 <a name="4"></a>
 ## 4. ff.v
-######
+###### 1. just flipflop using parameter
 ######
 ######
 ######
@@ -310,7 +310,7 @@
 ######
 ######
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkyNjY0NTkyLDM1ODc0ODEzMiwtMjIyNz
+eyJoaXN0b3J5IjpbMjU1MzA1NDY2LDM1ODc0ODEzMiwtMjIyNz
 Y5MTE2LC0yODI1MTgxMDEsLTYxNTQyMTk3NCwtMjAyMDA3OTMz
 NCwxNjU1MTQ1NzQ2LC0xNDczMjk4ODIyLDE1MDU1NDgyMjgsMT
 QzNTUyOTEyNiwtMTA3NjE1ODg4MSwtMjA0MTU5MDMwNSwtMjE3
