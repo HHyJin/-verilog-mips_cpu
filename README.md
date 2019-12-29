@@ -116,7 +116,7 @@
 
 <a name="3"></a>
 ## 3. dm.v
-######
+###### 1. Data memory(Input data is i
 ######
 ######
 ######
@@ -307,7 +307,7 @@
 ######
 ######
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMjg4MDAwMiwzNTg3NDgxMzIsLTIyMj
+eyJoaXN0b3J5IjpbLTM4OTg5MDE5NSwzNTg3NDgxMzIsLTIyMj
 c2OTExNiwtMjgyNTE4MTAxLC02MTU0MjE5NzQsLTIwMjAwNzkz
 MzQsMTY1NTE0NTc0NiwtMTQ3MzI5ODgyMiwxNTA1NTQ4MjI4LD
 E0MzU1MjkxMjYsLTEwNzYxNTg4ODEsLTIwNDE1OTAzMDUsLTIx
