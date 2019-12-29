@@ -119,8 +119,8 @@
 ###### 1. Data memory
 ###### 2. input
  * WE : MemWrite
- * WD : write data
- * A : wirte 
+ * WD : write data(It can be from rt or aluout)
+ * A : read or wirte memory address
 ######
 ######
 ######
@@ -310,7 +310,7 @@
 ######
 ######
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTU0NDkyNzYsMzU4NzQ4MTMyLC0yMj
+eyJoaXN0b3J5IjpbLTE1Mzk4NjEzNzAsMzU4NzQ4MTMyLC0yMj
 I3NjkxMTYsLTI4MjUxODEwMSwtNjE1NDIxOTc0LC0yMDIwMDc5
 MzM0LDE2NTUxNDU3NDYsLTE0NzMyOTg4MjIsMTUwNTU0ODIyOC
 wxNDM1NTI5MTI2LC0xMDc2MTU4ODgxLC0yMDQxNTkwMzA1LC0y
