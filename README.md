@@ -18,7 +18,7 @@
 [15. rf.v](#rf)  
 [16. signex.v](#signex)  
 [17. sl2.v](#sl2)  
-[18. testbench.v](#testbench)  
+[18. testbench.v](#testbench)
 
 
 
@@ -148,7 +148,7 @@
 # sl2
 # testbench
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTY0NDgzNSwxMjM2MTgwNTcwLDExNz
+eyJoaXN0b3J5IjpbMTU2NzA3NjEyNSwxMjM2MTgwNTcwLDExNz
 YxMDc5MDAsMzU4NzQ4MTMyLC0yMjI3NjkxMTYsLTI4MjUxODEw
 MSwtNjE1NDIxOTc0LC0yMDIwMDc5MzM0LDE2NTUxNDU3NDYsLT
 E0NzMyOTg4MjIsMTUwNTU0ODIyOCwxNDM1NTI5MTI2LC0xMDc2
