@@ -2,14 +2,14 @@
 ![eximg](./refpic.jpg)
 # 0. 목차 
 
-[1. alu.v](#1)  
-[2. control.v](#2)  
-[3. dm.v](#3)  
-[4. ff.v](#4)  
-[5. hazard.v](#5)  
-[6. im.v](#6)  
-[7. mips.v](#7)  
-[8. mux2.v](#8)  
+[1. alu.v](#alu)  
+[2. control.v](#control)  
+[3. dm.v](#dm)  
+[4. ff.v](#ff)  
+[5. hazard.v](#hazard)  
+[6. im.v](#im)  
+[7. mips.v](#mips)  
+[8. mux2.v](#mux)  
 [9. mux3.v](#9)  
 [10. p1.v](#10)  
 [11. p2.v](#11)  
@@ -312,7 +312,7 @@
 ######
 ######
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMzY0NTYwMCwxMjM2MTgwNTcwLDExNz
+eyJoaXN0b3J5IjpbLTQxOTcwNjcyOSwxMjM2MTgwNTcwLDExNz
 YxMDc5MDAsMzU4NzQ4MTMyLC0yMjI3NjkxMTYsLTI4MjUxODEw
 MSwtNjE1NDIxOTc0LC0yMDIwMDc5MzM0LDE2NTUxNDU3NDYsLT
 E0NzMyOTg4MjIsMTUwNTU0ODIyOCwxNDM1NTI5MTI2LC0xMDc2
