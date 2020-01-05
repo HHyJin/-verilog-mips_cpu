@@ -147,8 +147,12 @@ project : 5 stage mips cpu(verilog)
 > mux which has 3 sources
 # p1
 > first pipeline
-> paramter : instruction, pcplus4, stall
+> basic paramter : instruction, pcplus4
+> hazard paramter : stall, pcsrc
 # p2
+> second pipeline
+> basic paramter : control bit
+> 
 # p3
 # p4
 # pcplus4
@@ -157,11 +161,11 @@ project : 5 stage mips cpu(verilog)
 # sl2
 # testbench
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTI3MzY0NTUsMTc0MDAxNzY4NywxMj
-M2MTgwNTcwLDExNzYxMDc5MDAsMzU4NzQ4MTMyLC0yMjI3Njkx
-MTYsLTI4MjUxODEwMSwtNjE1NDIxOTc0LC0yMDIwMDc5MzM0LD
-E2NTUxNDU3NDYsLTE0NzMyOTg4MjIsMTUwNTU0ODIyOCwxNDM1
-NTI5MTI2LC0xMDc2MTU4ODgxLC0yMDQxNTkwMzA1LC0yMTc5MT
-Q0MjYsMjYyNjk0MzQ2LDE0MDgxMDkwNzIsMTM3NjgwMTY2MCwx
-NTIxODQxMjIyXX0=
+eyJoaXN0b3J5IjpbMTcxODU4MjE2NCwxNzQwMDE3Njg3LDEyMz
+YxODA1NzAsMTE3NjEwNzkwMCwzNTg3NDgxMzIsLTIyMjc2OTEx
+NiwtMjgyNTE4MTAxLC02MTU0MjE5NzQsLTIwMjAwNzkzMzQsMT
+Y1NTE0NTc0NiwtMTQ3MzI5ODgyMiwxNTA1NTQ4MjI4LDE0MzU1
+MjkxMjYsLTEwNzYxNTg4ODEsLTIwNDE1OTAzMDUsLTIxNzkxND
+QyNiwyNjI2OTQzNDYsMTQwODEwOTA3MiwxMzc2ODAxNjYwLDE1
+MjE4NDEyMjJdfQ==
 -->
