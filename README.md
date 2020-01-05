@@ -29,21 +29,26 @@
 		input [3:0] ALUOp,
 		input [31:0] a, b,
 		output reg [31:0] out);
-
+```
 > 1. input으로 4bit ALUopcode,  operand A,B를 decode stage로 받는다.
+```verilog
 	wire [31:0] sub_ab;
 	wire [31:0] add_ab;
 	wire [31:0] mult_ab;
 	assign sub_ab = a - b;
 	assign add_ab = a + b;
 	assign mult_ab = a * b;
-###### 2. operand A,B의 계산값 sub, add, mult, slt를 조합회로로 구성한다.
+```
+>2. operand A,B의 계산값 sub, add, mult, slt를 조합회로로 구성한다.
+```verilog
 	wire oflow_add, oflow_sub, oflow, slt;
 	assign oflow_add = (a[31] == b[31] && 	add_ab[31] != a[31]) ? 1 : 0;
 	assign oflow_sub = (a[31] == b[31] && 	sub_ab[31] != a[31]) ? 1 : 0;
 	assign oflow = (ALUOp == 4'b0010) ? oflow_add : oflow_sub;
 	assign slt = oflow_sub ? ~(a[31]) : a[31];
-###### 3.  연산 간 overflow를 체크 하는 회로를 구성한다.  A가 양수인 경우 overflow가 나면 A<B이다. A가 음수인 경우 overflow가 안나면 A<B이다.  A가 양수의 경우 sub_overflow시 slt를 1로 set, 음수일 경우 slt를 0으로 set하면 된다.  즉 msb를 이용하면 한줄로 코드를 구성할 수 있다.
+```
+> 3.  연산 간 overflow를 체크 하는 회로를 구성한다.  A가 양수인 경우 overflow가 나면 A<B이다. A가 음수인 경우 overflow가 안나면 A<B이다.  A가 양수의 경우 sub_overflow시 slt를 1로 set, 음수일 경우 slt를 0으로 set하면 된다.  즉 msb를 이용하면 한줄로 코드를 구성할 수 있다.
+```verilog
 	always @(*) 
 	begin
 		case (ALUOp)
@@ -59,12 +64,15 @@
 		endcase
 	end
 	endmodule
-###### 4.  opcode에 따라 reg output에 값을 할당한다.  
+```
+> 4.  opcode에 따라 reg output에 값을 할당한다.  
 
-<a name="2"></a>
-## 2.control.v
+## control
+```verilog
 	module control(input[5:0] Op,Funct, output reg RegWriteD, MemtoRegD,MemWriteD,output reg[3:0] ALUControlD, output reg ALUSrcD, RegDstD, BranchD,JToPCD);
-###### 1. input으로 6bit opcode를 받아 각 control bit들을 set한다.
+```
+> 1. input으로 6bit opcode를 받아 각 control bit들을 set한다.
+```verilog
 	always @(*)
 	begin
 		case (Op)
@@ -311,11 +319,11 @@
 ######
 ######
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTc3MDAwNTgsMTIzNjE4MDU3MCwxMT
-c2MTA3OTAwLDM1ODc0ODEzMiwtMjIyNzY5MTE2LC0yODI1MTgx
-MDEsLTYxNTQyMTk3NCwtMjAyMDA3OTMzNCwxNjU1MTQ1NzQ2LC
-0xNDczMjk4ODIyLDE1MDU1NDgyMjgsMTQzNTUyOTEyNiwtMTA3
-NjE1ODg4MSwtMjA0MTU5MDMwNSwtMjE3OTE0NDI2LDI2MjY5ND
-M0NiwxNDA4MTA5MDcyLDEzNzY4MDE2NjAsMTUyMTg0MTIyMiw1
-MjEzMjM3NDVdfQ==
+eyJoaXN0b3J5IjpbLTM3ODIyNDQ1MSwxMjM2MTgwNTcwLDExNz
+YxMDc5MDAsMzU4NzQ4MTMyLC0yMjI3NjkxMTYsLTI4MjUxODEw
+MSwtNjE1NDIxOTc0LC0yMDIwMDc5MzM0LDE2NTUxNDU3NDYsLT
+E0NzMyOTg4MjIsMTUwNTU0ODIyOCwxNDM1NTI5MTI2LC0xMDc2
+MTU4ODgxLC0yMDQxNTkwMzA1LC0yMTc5MTQ0MjYsMjYyNjk0Mz
+Q2LDE0MDgxMDkwNzIsMTM3NjgwMTY2MCwxNTIxODQxMjIyLDUy
+MTMyMzc0NV19
 -->
