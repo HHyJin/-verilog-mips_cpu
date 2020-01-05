@@ -24,12 +24,13 @@
 
 # alu
 > * branch명령어와 jump명령어는 ALUopcode를 0000으로 setting
-
+```verilog
 	module alu(
 		input [3:0] ALUOp,
 		input [31:0] a, b,
 		output reg [31:0] out);
-###### 1. input으로 4bit ALUopcode,  operand A,B를 decode stage로 받는다.
+
+> 1. input으로 4bit ALUopcode,  operand A,B를 decode stage로 받는다.
 	wire [31:0] sub_ab;
 	wire [31:0] add_ab;
 	wire [31:0] mult_ab;
@@ -310,7 +311,7 @@
 ######
 ######
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mzk1OTI5MjQsMTIzNjE4MDU3MCwxMT
+eyJoaXN0b3J5IjpbLTE1OTc3MDAwNTgsMTIzNjE4MDU3MCwxMT
 c2MTA3OTAwLDM1ODc0ODEzMiwtMjIyNzY5MTE2LC0yODI1MTgx
 MDEsLTYxNTQyMTk3NCwtMjAyMDA3OTMzNCwxNjU1MTQ1NzQ2LC
 0xNDczMjk4ODIyLDE1MDU1NDgyMjgsMTQzNTUyOTEyNiwtMTA3
