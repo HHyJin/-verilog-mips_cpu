@@ -138,11 +138,15 @@ project : 5 stage mips cpu(verilog)
 # hazard
 > 1. set Forward, lwStall, branchStall bit when hazard occured
 # im
-
+>instruction memory
 # mips
+> mips architecture
 # mux2
+> mux which has 2 sources
 # mux3
+> mux which has 3 sources
 # p1
+> 
 # p2
 # p3
 # p4
@@ -152,7 +156,7 @@ project : 5 stage mips cpu(verilog)
 # sl2
 # testbench
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4Mzc2MzU0NiwxNzQwMDE3Njg3LDEyMz
+eyJoaXN0b3J5IjpbMTI2NTE4ODI4NiwxNzQwMDE3Njg3LDEyMz
 YxODA1NzAsMTE3NjEwNzkwMCwzNTg3NDgxMzIsLTIyMjc2OTEx
 NiwtMjgyNTE4MTAxLC02MTU0MjE5NzQsLTIwMjAwNzkzMzQsMT
 Y1NTE0NTc0NiwtMTQ3MzI5ODgyMiwxNTA1NTQ4MjI4LDE0MzU1
