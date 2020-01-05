@@ -136,7 +136,9 @@ project : 5 stage mips cpu(verilog)
 # ff
 > 1. just flipflop(it is used for pushing next pc)
 # hazard
+> 1. set Forward, lwStall, branchStall bit when hazard occured
 # im
+
 # mips
 # mux2
 # mux3
@@ -150,11 +152,11 @@ project : 5 stage mips cpu(verilog)
 # sl2
 # testbench
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MDAxNzY4NywxMjM2MTgwNTcwLDExNz
-YxMDc5MDAsMzU4NzQ4MTMyLC0yMjI3NjkxMTYsLTI4MjUxODEw
-MSwtNjE1NDIxOTc0LC0yMDIwMDc5MzM0LDE2NTUxNDU3NDYsLT
-E0NzMyOTg4MjIsMTUwNTU0ODIyOCwxNDM1NTI5MTI2LC0xMDc2
-MTU4ODgxLC0yMDQxNTkwMzA1LC0yMTc5MTQ0MjYsMjYyNjk0Mz
-Q2LDE0MDgxMDkwNzIsMTM3NjgwMTY2MCwxNTIxODQxMjIyLDUy
-MTMyMzc0NV19
+eyJoaXN0b3J5IjpbMTQ4Mzc2MzU0NiwxNzQwMDE3Njg3LDEyMz
+YxODA1NzAsMTE3NjEwNzkwMCwzNTg3NDgxMzIsLTIyMjc2OTEx
+NiwtMjgyNTE4MTAxLC02MTU0MjE5NzQsLTIwMjAwNzkzMzQsMT
+Y1NTE0NTc0NiwtMTQ3MzI5ODgyMiwxNTA1NTQ4MjI4LDE0MzU1
+MjkxMjYsLTEwNzYxNTg4ODEsLTIwNDE1OTAzMDUsLTIxNzkxND
+QyNiwyNjI2OTQzNDYsMTQwODEwOTA3MiwxMzc2ODAxNjYwLDE1
+MjE4NDEyMjJdfQ==
 -->
