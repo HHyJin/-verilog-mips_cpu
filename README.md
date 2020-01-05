@@ -1,5 +1,5 @@
 # 5 stage mips cpu(verilog)
-![eximg](./refpic.jpg)
+![eximg](./refpic.jpg)  
 # 목차 
 [1. alu.v](#alu)  
 [2. control.v](#control)  
@@ -148,7 +148,7 @@
 # sl2
 # testbench
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MjE1NjUxNSwxMjM2MTgwNTcwLDExNz
+eyJoaXN0b3J5IjpbLTE3OTY0NDgzNSwxMjM2MTgwNTcwLDExNz
 YxMDc5MDAsMzU4NzQ4MTMyLC0yMjI3NjkxMTYsLTI4MjUxODEw
 MSwtNjE1NDIxOTc0LC0yMDIwMDc5MzM0LDE2NTUxNDU3NDYsLT
 E0NzMyOTg4MjIsMTUwNTU0ODIyOCwxNDM1NTI5MTI2LC0xMDc2
