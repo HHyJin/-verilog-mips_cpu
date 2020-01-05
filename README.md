@@ -135,122 +135,24 @@
 > 1. just flipflop(it is used for pushing next pc)
 # hazard
 # im
-# 7. mips.v
-# 8. mux2.v
-# 9. mux3.v
-## 10. p1.v
-######
-######
-######
-######
-######
-######
-######
-######
-######
-
-<a name="11"></a>
-## 11. p2.v
-######
-######
-######
-######
-######
-######
-######
-######
-######
-
-<a name="12"></a>
-## 12. p3.v
-######
-######
-######
-######
-######
-######
-######
-######
-######
-
-
-<a name="13"></a>
-## 13. p4.v
-######
-######
-######
-######
-######
-######
-######
-######
-######
-
-<a name="14"></a>
-## 14. pcplus4.v
-######
-######
-######
-######
-######
-######
-######
-######
-######
-
-<a name="15"></a>
-## 15. rf.v
-######
-######
-######
-######
-######
-######
-######
-######
-######
-
-<a name="16"></a>
-## 16. signex.v
-######
-######
-######
-######
-######
-######
-######
-######
-######
-
-<a name="17"></a>
-## 17. sl2.v
-######
-######
-######
-######
-######
-######
-######
-######
-######
-
-<a name="18"></a>
-## 18. testbench.v 
-######
-######
-######
-######
-######
-######
-######
-######
-######
+# mips
+# mux2
+# mux3
+# p1
+# p2
+# p3
+# p4
+# pcplus4
+# rf
+# signex
+# sl2
+# testbench
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMDQxODI5NSwxMjM2MTgwNTcwLDExNz
-YxMDc5MDAsMzU4NzQ4MTMyLC0yMjI3NjkxMTYsLTI4MjUxODEw
-MSwtNjE1NDIxOTc0LC0yMDIwMDc5MzM0LDE2NTUxNDU3NDYsLT
-E0NzMyOTg4MjIsMTUwNTU0ODIyOCwxNDM1NTI5MTI2LC0xMDc2
-MTU4ODgxLC0yMDQxNTkwMzA1LC0yMTc5MTQ0MjYsMjYyNjk0Mz
-Q2LDE0MDgxMDkwNzIsMTM3NjgwMTY2MCwxNTIxODQxMjIyLDUy
-MTMyMzc0NV19
+eyJoaXN0b3J5IjpbLTEyNDM1ODE4ODksMTIzNjE4MDU3MCwxMT
+c2MTA3OTAwLDM1ODc0ODEzMiwtMjIyNzY5MTE2LC0yODI1MTgx
+MDEsLTYxNTQyMTk3NCwtMjAyMDA3OTMzNCwxNjU1MTQ1NzQ2LC
+0xNDczMjk4ODIyLDE1MDU1NDgyMjgsMTQzNTUyOTEyNiwtMTA3
+NjE1ODg4MSwtMjA0MTU5MDMwNSwtMjE3OTE0NDI2LDI2MjY5ND
+M0NiwxNDA4MTA5MDcyLDEzNzY4MDE2NjAsMTUyMTg0MTIyMiw1
+MjEzMjM3NDVdfQ==
 -->
