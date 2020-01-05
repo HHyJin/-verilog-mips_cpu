@@ -151,7 +151,7 @@ project : 5 stage mips cpu(verilog)
 > hazard paramter : stall, pcsrc
 # p2
 > second pipeline
-> basic paramter : all control bit, RD data,
+> basic paramter : all control bit, RD data, Rs,Rt,Rd data for checking data dependency
 > hazard paramter : flush
 # p3
 # p4
@@ -161,11 +161,11 @@ project : 5 stage mips cpu(verilog)
 # sl2
 # testbench
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MDMyODY3NSwxNzQwMDE3Njg3LDEyMz
-YxODA1NzAsMTE3NjEwNzkwMCwzNTg3NDgxMzIsLTIyMjc2OTEx
-NiwtMjgyNTE4MTAxLC02MTU0MjE5NzQsLTIwMjAwNzkzMzQsMT
-Y1NTE0NTc0NiwtMTQ3MzI5ODgyMiwxNTA1NTQ4MjI4LDE0MzU1
-MjkxMjYsLTEwNzYxNTg4ODEsLTIwNDE1OTAzMDUsLTIxNzkxND
-QyNiwyNjI2OTQzNDYsMTQwODEwOTA3MiwxMzc2ODAxNjYwLDE1
-MjE4NDEyMjJdfQ==
+eyJoaXN0b3J5IjpbMzQwMTcyMDYwLDE3NDAwMTc2ODcsMTIzNj
+E4MDU3MCwxMTc2MTA3OTAwLDM1ODc0ODEzMiwtMjIyNzY5MTE2
+LC0yODI1MTgxMDEsLTYxNTQyMTk3NCwtMjAyMDA3OTMzNCwxNj
+U1MTQ1NzQ2LC0xNDczMjk4ODIyLDE1MDU1NDgyMjgsMTQzNTUy
+OTEyNiwtMTA3NjE1ODg4MSwtMjA0MTU5MDMwNSwtMjE3OTE0ND
+I2LDI2MjY5NDM0NiwxNDA4MTA5MDcyLDEzNzY4MDE2NjAsMTUy
+MTg0MTIyMl19
 -->
