@@ -67,7 +67,7 @@
 ```
 > 4.  opcode에 따라 reg output에 값을 할당한다.  
 
-## control
+# control
 ```verilog
 	module control(input[5:0] Op,Funct, output reg RegWriteD, MemtoRegD,MemWriteD,output reg[3:0] ALUControlD, output reg ALUSrcD, RegDstD, BranchD,JToPCD);
 ```
@@ -113,105 +113,31 @@
 		endcase
 	end
 ```
-###### 2. control bit('choose' means the control bit of mux)
-* RegWriteD(reg file write enable)
-* RegDstD(choose reg file wirte address)
-* MemtoRegD(choose wirte data to reg)
-* MemWriteD(data memory write enable)
-* ALUControlD(choose alu operator)
-* ALUSrcD(choose ALU operand B, rs or imm)
-* BranchD(set if branch inst)
-* JToPCD(set if jump inst)
+> 2. control bit('choose' means the control bit of mux)
+>* RegWriteD(reg file write enable)
+>* RegDstD(choose reg file wirte address)
+>* MemtoRegD(choose wirte data to reg)
+>* MemWriteD(data memory write enable)
+>* ALUControlD(choose alu operator)
+>* ALUSrcD(choose ALU operand B, rs or imm)
+>* BranchD(set if branch inst)
+>* JToPCD(set if jump inst)
 
 
-<a name="3"></a>
-## 3. dm.v
-###### 1. Data memory
-###### 2. input
- * WE : MemWrite
- * WD : write data(It is from rt)
- * A : read or wirte memory address
-######
-######
-######
-######
-######
-######
-######
+# dm
+> 1. Data memory
+> 2. input
+ >* WE : MemWrite
+ >* WD : write data(It is from rt)
+ >* A : read or wirte memory address
 
-<a name="4"></a>
-## 4. ff.v
-###### 1. just flipflop(it is used for pushing next pc)
-######
-######
-######
-######
-######
-######
-######
-######
-
-<a name="5"></a>
-## 5. hazard.v
-###### 1.  
-######
-######
-######
-######
-######
-######
-######
-######
-
-<a name="6"></a>
-## 6. im.v
-######
-######
-######
-######
-######
-######
-######
-######
-######
-
-<a name="7"></a>
-## 7. mips.v
-######
-######
-######
-######
-######
-######
-######
-######
-######
-
-<a name="8"></a>
-## 8. mux2.v
-######
-######
-######
-######
-######
-######
-######
-######
-######
-
-<a name="9"></a>
-## 9. mux3.v
-######
-######
-######
-######
-######
-######
-######
-######
-######
-
-<a name="10"></a>
+# ff
+> 1. just flipflop(it is used for pushing next pc)
+# hazard
+# im
+# 7. mips.v
+# 8. mux2.v
+# 9. mux3.v
 ## 10. p1.v
 ######
 ######
@@ -320,11 +246,11 @@
 ######
 ######
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzE3MTU0MzksMTIzNjE4MDU3MCwxMT
-c2MTA3OTAwLDM1ODc0ODEzMiwtMjIyNzY5MTE2LC0yODI1MTgx
-MDEsLTYxNTQyMTk3NCwtMjAyMDA3OTMzNCwxNjU1MTQ1NzQ2LC
-0xNDczMjk4ODIyLDE1MDU1NDgyMjgsMTQzNTUyOTEyNiwtMTA3
-NjE1ODg4MSwtMjA0MTU5MDMwNSwtMjE3OTE0NDI2LDI2MjY5ND
-M0NiwxNDA4MTA5MDcyLDEzNzY4MDE2NjAsMTUyMTg0MTIyMiw1
-MjEzMjM3NDVdfQ==
+eyJoaXN0b3J5IjpbLTcxMDQxODI5NSwxMjM2MTgwNTcwLDExNz
+YxMDc5MDAsMzU4NzQ4MTMyLC0yMjI3NjkxMTYsLTI4MjUxODEw
+MSwtNjE1NDIxOTc0LC0yMDIwMDc5MzM0LDE2NTUxNDU3NDYsLT
+E0NzMyOTg4MjIsMTUwNTU0ODIyOCwxNDM1NTI5MTI2LC0xMDc2
+MTU4ODgxLC0yMDQxNTkwMzA1LC0yMTc5MTQ0MjYsMjYyNjk0Mz
+Q2LDE0MDgxMDkwNzIsMTM3NjgwMTY2MCwxNTIxODQxMjIyLDUy
+MTMyMzc0NV19
 -->
