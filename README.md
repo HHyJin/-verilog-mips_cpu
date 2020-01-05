@@ -151,8 +151,8 @@ project : 5 stage mips cpu(verilog)
 > hazard paramter : stall, pcsrc
 # p2
 > second pipeline
-> basic paramter : control bit
-> 
+> basic paramter : all control bit, RD data,
+> hazard paramter : flush
 # p3
 # p4
 # pcplus4
@@ -161,7 +161,7 @@ project : 5 stage mips cpu(verilog)
 # sl2
 # testbench
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxODU4MjE2NCwxNzQwMDE3Njg3LDEyMz
+eyJoaXN0b3J5IjpbMjA1MDMyODY3NSwxNzQwMDE3Njg3LDEyMz
 YxODA1NzAsMTE3NjEwNzkwMCwzNTg3NDgxMzIsLTIyMjc2OTEx
 NiwtMjgyNTE4MTAxLC02MTU0MjE5NzQsLTIwMjAwNzkzMzQsMT
 Y1NTE0NTc0NiwtMTQ3MzI5ODgyMiwxNTA1NTQ4MjI4LDE0MzU1
