@@ -1,7 +1,6 @@
 # 5 stage mips cpu(verilog)
 ![eximg](./refpic.jpg)
 # 0. 목차 
-
 [1. alu.v](#alu)  
 [2. control.v](#control)  
 [3. dm.v](#dm)  
@@ -9,23 +8,22 @@
 [5. hazard.v](#hazard)  
 [6. im.v](#im)  
 [7. mips.v](#mips)  
-[8. mux2.v](#mux)  
-[9. mux3.v](#9)  
-[10. p1.v](#10)  
-[11. p2.v](#11)  
-[12. p3.v](#12)  
-[13. p4.v](#13)  
-[14. pcplus4.v](#14)  
-[15. rf.v](#15)  
-[16. signex.v](#16)  
-[17. sl2.v](#17)  
-[18. testbench.v](#18)  
+[8. mux2.v](#mux2)  
+[9. mux3.v](#mux3)  
+[10. p1.v](#p1)  
+[11. p2.v](#p2)  
+[12. p3.v](#p3)  
+[13. p4.v](#p4) 
+[14. pcplus4.v](#pcplus4)  
+[15. rf.v](#rf)  
+[16. signex.v](#signex)  
+[17. sl2.v](#sl2)  
+[18. testbench.v](#testbench)  
 
 
 
-<a name="1"></a>
-## 1.alu.v
-###### * branch명령어와 jump명령어는 ALUopcode를 0000으로 setting
+# alu
+> * branch명령어와 jump명령어는 ALUopcode를 0000으로 setting
 
 	module alu(
 		input [3:0] ALUOp,
@@ -312,11 +310,11 @@
 ######
 ######
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxOTcwNjcyOSwxMjM2MTgwNTcwLDExNz
-YxMDc5MDAsMzU4NzQ4MTMyLC0yMjI3NjkxMTYsLTI4MjUxODEw
-MSwtNjE1NDIxOTc0LC0yMDIwMDc5MzM0LDE2NTUxNDU3NDYsLT
-E0NzMyOTg4MjIsMTUwNTU0ODIyOCwxNDM1NTI5MTI2LC0xMDc2
-MTU4ODgxLC0yMDQxNTkwMzA1LC0yMTc5MTQ0MjYsMjYyNjk0Mz
-Q2LDE0MDgxMDkwNzIsMTM3NjgwMTY2MCwxNTIxODQxMjIyLDUy
-MTMyMzc0NV19
+eyJoaXN0b3J5IjpbLTE5Mzk1OTI5MjQsMTIzNjE4MDU3MCwxMT
+c2MTA3OTAwLDM1ODc0ODEzMiwtMjIyNzY5MTE2LC0yODI1MTgx
+MDEsLTYxNTQyMTk3NCwtMjAyMDA3OTMzNCwxNjU1MTQ1NzQ2LC
+0xNDczMjk4ODIyLDE1MDU1NDgyMjgsMTQzNTUyOTEyNiwtMTA3
+NjE1ODg4MSwtMjA0MTU5MDMwNSwtMjE3OTE0NDI2LDI2MjY5ND
+M0NiwxNDA4MTA5MDcyLDEzNzY4MDE2NjAsMTUyMTg0MTIyMiw1
+MjEzMjM3NDVdfQ==
 -->
