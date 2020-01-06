@@ -154,6 +154,7 @@ project : 5 stage mips cpu(verilog)
 > basic paramter : all control bit, RD data, Rs,Rt,Rd data for checking data dependency
 > hazard paramter : flush
 # p3
+>
 # p4
 # pcplus4
 # rf
@@ -161,11 +162,11 @@ project : 5 stage mips cpu(verilog)
 # sl2
 # testbench
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQwMTcyMDYwLDE3NDAwMTc2ODcsMTIzNj
-E4MDU3MCwxMTc2MTA3OTAwLDM1ODc0ODEzMiwtMjIyNzY5MTE2
-LC0yODI1MTgxMDEsLTYxNTQyMTk3NCwtMjAyMDA3OTMzNCwxNj
-U1MTQ1NzQ2LC0xNDczMjk4ODIyLDE1MDU1NDgyMjgsMTQzNTUy
-OTEyNiwtMTA3NjE1ODg4MSwtMjA0MTU5MDMwNSwtMjE3OTE0ND
-I2LDI2MjY5NDM0NiwxNDA4MTA5MDcyLDEzNzY4MDE2NjAsMTUy
-MTg0MTIyMl19
+eyJoaXN0b3J5IjpbMTE3NTQxMDA2MCwzNDAxNzIwNjAsMTc0MD
+AxNzY4NywxMjM2MTgwNTcwLDExNzYxMDc5MDAsMzU4NzQ4MTMy
+LC0yMjI3NjkxMTYsLTI4MjUxODEwMSwtNjE1NDIxOTc0LC0yMD
+IwMDc5MzM0LDE2NTUxNDU3NDYsLTE0NzMyOTg4MjIsMTUwNTU0
+ODIyOCwxNDM1NTI5MTI2LC0xMDc2MTU4ODgxLC0yMDQxNTkwMz
+A1LC0yMTc5MTQ0MjYsMjYyNjk0MzQ2LDE0MDgxMDkwNzIsMTM3
+NjgwMTY2MF19
 -->
